@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FEDBD0</color>
+    <color name="colorPrimaryDark">#F2F5AD96</color>
+    <color name="colorAccent">#F877A5</color>
+    <color name="windowBackground">#FAE1D9</color>
+    <color name="textColorPrimary">#442C2E</color>
+    <color name="iconFillColor">#FF6E6E</color>
+    <color name="white">#FDFCFC</color>
+    <color name="checkedColor">#F83030</color>
+</resources>

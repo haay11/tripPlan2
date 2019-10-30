@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.firstapp.hytripplan">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <!--androidx 전환에러 관련 참고 : https://hjlab.tistory.com/400-->
+    <!--No original dex files found for dex location 에러 참고
+    https://crmn.tistory.com/64-->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:replace="android:appComponentFactory"
+        android:appComponentFactory="whateverString"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".main.MainActivity"/>
+        <activity android:name=".make.AddLikeSpace" />
+        <activity android:name=".make.MakePlanActivity"/>
+        <activity android:name=".search.SearchSpaceActivity"/>
+        <activity android:name=".search.SpaceActivity"/>
+        <activity android:name=".login.LoginActivity"/>
+        <activity android:name=".register.RegisterMember"/>
+    </application>
+
+</manifest>

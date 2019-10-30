@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="main_toolbar">
+        <attr name="toolbar_" format="reference"/>
+        <attr name="app_title" format="reference"/>
+        <attr name="back" format="reference"/>
+        <attr name="back_empty" format="reference"/>
+        <attr name="forward" format="reference"/>
+        <attr name="forward_empty" format="reference"/>
+    </declare-styleable>
+
+</resources>

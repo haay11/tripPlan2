@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+         <com.firstapp.hytripplan.toolbar.CustomToolbar
+        app:app_title="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/add_space_lin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/add_like_space_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/area"
+                android:textSize="23dp"
+                android:visibility="visible"
+                android:textColor="@color/textColorPrimary"
+                android:textStyle="bold"/>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/add_like_space_arr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="▶"
+                android:visibility="visible"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/textColorPrimary"/>
+             <TextView
+                 android:id="@+id/add_space_text1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/space"
+                 android:textSize="20dp"
+                 android:visibility="visible"
+                 android:textColor="@color/textColorPrimary"/>
+             <ImageView
+                 android:id="@+id/add_space_img"
+                 android:layout_width="20dp"
+                 android:layout_height="match_parent"
+                 android:layout_marginStart="2dp"
+                 android:visibility="visible"
+                 android:src="@drawable/ic_icon_plus"/>
+         </LinearLayout>
+        </LinearLayout>
+
+
+</LinearLayout>

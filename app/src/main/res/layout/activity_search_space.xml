@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <com.firstapp.hytripplan.toolbar.CustomToolbar
+        app:app_title="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/add_search_edit"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:drawableLeft="@drawable/ic_search"
+        android:completionHint="검색어를 입력하세요."
+        android:maxLines="1"
+        android:imeOptions="actionSearch"
+        android:completionThreshold="1"
+        />
+    <ListView
+        android:id="@+id/add_search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>

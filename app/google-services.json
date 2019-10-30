@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "867413282040",
+    "firebase_url": "https://androidtripplan.firebaseio.com",
+    "project_id": "androidtripplan",
+    "storage_bucket": "androidtripplan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867413282040:android:0eb4222314a84a30",
+        "android_client_info": {
+          "package_name": "com.firstapp.hytripplan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867413282040-kjq8am0etg4hkun78phto1ij0edlq133.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firstapp.hytripplan",
+            "certificate_hash": "0b66a4c2dbd539cdae997a41a68c12b4329b6fba"
+          }
+        },
+        {
+          "client_id": "867413282040-jjedneub0842bjsm7asnj3cgqhsd1bh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAz9nrvestAo9NONS57x8-iJ3n1hQY_KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867413282040-jjedneub0842bjsm7asnj3cgqhsd1bh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

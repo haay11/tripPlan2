@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/colorPrimary">
+
+    <com.firstapp.hytripplan.toolbar.CustomToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:app_title="@string/app_name"
+        />
+    <EditText
+        android:id="@+id/plan_title"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:hint="@string/input_plan_name"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/cal_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_iconfinder_quiz_4595790"
+            android:layout_marginRight="10dp"
+            />
+        <EditText
+            android:hint="@string/start_date"
+            android:id="@+id/day_start"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            />
+        <EditText
+            android:hint="@string/end_date"
+            android:id="@+id/day_end"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            />
+        <ImageView
+            android:id="@+id/map_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_iconfinder_157_twitter_location_map_"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/testLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="10dp">
+        <Button
+            android:id="@+id/plan_save_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <ListView
+            android:id="@+id/list_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

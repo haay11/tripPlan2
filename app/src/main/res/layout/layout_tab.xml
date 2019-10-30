@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabHost1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/plan_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="일정" />
+
+        <TextView
+            android:id="@+id/suggest_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="추천" />
+
+        <TextView
+            android:id="@+id/blog_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="후기" />
+
+        <ImageView
+            android:id="@+id/like_tab"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_iconfinder_heart" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="내용" />
+    </FrameLayout>
+
+</RelativeLayout>
